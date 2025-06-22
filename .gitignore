@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+=======
+# Project Specific
+uv.lock
+
+>>>>>>> BCBranch
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -25,6 +31,10 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
+<<<<<<< HEAD
+=======
+.chainlit/
+>>>>>>> BCBranch
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -94,12 +104,15 @@ ipython_config.py
 #   install all needed dependencies.
 #Pipfile.lock
 
+<<<<<<< HEAD
 # UV
 #   Similar to Pipfile.lock, it is generally recommended to include uv.lock in version control.
 #   This is especially recommended for binary packages to ensure reproducibility, and is more
 #   commonly ignored for libraries.
 #uv.lock
 
+=======
+>>>>>>> BCBranch
 # poetry
 #   Similar to Pipfile.lock, it is generally recommended to include poetry.lock in version control.
 #   This is especially recommended for binary packages to ensure reproducibility, and is more
@@ -112,10 +125,15 @@ ipython_config.py
 #pdm.lock
 #   pdm stores project-wide configurations in .pdm.toml, but it is recommended to not include it
 #   in version control.
+<<<<<<< HEAD
 #   https://pdm.fming.dev/latest/usage/project/#working-with-version-control
 .pdm.toml
 .pdm-python
 .pdm-build/
+=======
+#   https://pdm.fming.dev/#use-with-ide
+.pdm.toml
+>>>>>>> BCBranch
 
 # PEP 582; used by e.g. github.com/David-OConnor/pyflow and github.com/pdm-project/pdm
 __pypackages__/
@@ -166,6 +184,7 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+<<<<<<< HEAD
 
 # Abstra
 # Abstra is an AI-powered process automation framework.
@@ -192,3 +211,6 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+=======
+.vercel
+>>>>>>> BCBranch
